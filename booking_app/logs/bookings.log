@@ -1,0 +1,21 @@
+ERROR 2025-07-16 00:38:11,837 booking_views Booking cancellation failed for 3ec501ce-be2d-470d-b76b-fd1739378a30: [ErrorDetail(string='Booking cannot be cancelled in its current state', code='invalid')]
+ERROR 2025-07-16 01:54:21,714 booking_views Booking creation failed for zoe.torres005@hotmail.com: Only verified users can perform this action
+ERROR 2025-07-16 02:14:37,289 booking_views Booking creation failed for zoe.torres005@hotmail.com: Only verified users can perform this action
+ERROR 2025-07-27 00:31:01,131 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 00:32:06,547 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:30:32,811 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:36:18,280 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:36:27,506 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:36:48,394 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:38:17,182 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:39:36,033 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 01:58:16,205 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 02:01:28,703 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 02:06:09,534 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 02:08:22,848 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+ERROR 2025-07-27 02:08:37,542 booking_views Booking creation failed for allansimiyu12@gmail.com: [ErrorDetail(string='Property does not exist', code='invalid')]
+INFO 2025-07-27 02:40:18,187 booking_service Booking 36e7514c-47b5-48a8-acbf-361a47bc3ff8 - Action: CREATED by allansimiyu12@gmail.com (Role: guest, Status: PENDING, Payment: PENDING)
+ERROR 2025-07-27 02:40:18,188 booking_service Failed to send booking confirmation email to allansimiyu12@gmail.com: 'Booking' object has no attribute 'check_in_instructions'
+INFO 2025-07-27 02:41:11,558 booking_service Booking c369e304-4f11-48e0-84bd-ce523cd5267c - Action: CREATED by allansimiyu12@gmail.com (Role: guest, Status: PENDING, Payment: PENDING)
+INFO 2025-07-27 02:41:11,581 booking_service Booking confirmation email sent to allansimiyu12@gmail.com for booking c369e304-4f11-48e0-84bd-ce523cd5267c
+INFO 2025-07-27 02:41:11,584 booking_service Host notification email sent to isabella.torres015@hotmail.com for booking c369e304-4f11-48e0-84bd-ce523cd5267c
